@@ -11,10 +11,7 @@ from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.layers import LSTM, Dense, Input
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.regularizers import l2
-from google.colab import drive
 import joblib
-
-drive.mount('/content/drive')
 
 
 # import data
