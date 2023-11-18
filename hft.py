@@ -18,7 +18,7 @@ drive.mount('/content/drive')
 
 
 # import data
-orderbook_data = pd.read_csv('/content/drive/My Drive/SPY_2012-06-21_34200000_37800000_orderbook_50.csv')
+orderbook_data = pd.read_csv('PATH/SPY_2012-06-21_34200000_37800000_orderbook_50.csv') # change based on your actual useage.
 
 def label_and_convert_orderbook_data(orderbook_data, number_of_levels):
     # Rename the columns
